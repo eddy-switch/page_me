@@ -1,4 +1,41 @@
+# Dependencies
 node_modules
+
+# Build output
 dist
+assets/*.css
+assets/*.js
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
 *.log
+npm-debug.log*
+
+# Sensitive files
+*.pub
+*.pem
+id_rsa*
+*.key
+
+# Resume files (keep source, ignore built versions)
+resume_lepg.htm
+resume_lepg.html
+*.pdf
+
+# Temporary files
+*.tmp
+*.temp
