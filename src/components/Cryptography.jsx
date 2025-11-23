@@ -26,7 +26,7 @@ const Cryptography = () => {
                     >
                         <div className="figure-image-wrapper">
                             <img
-                                src="/assets/yevgeniy-dodis.jpg"
+                                src={`${import.meta.env.BASE_URL}assets/yevgeniy-dodis.jpg`}
                                 alt="Yevgeniy Dodis"
                                 className="figure-image"
                             />
