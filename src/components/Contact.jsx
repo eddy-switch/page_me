@@ -67,7 +67,7 @@ const Contact = () => {
                         transition={{ delay: 0.6 }}
                     >
                         <a
-                            href="/assets/resume_lepg.pdf"
+                            href={`${import.meta.env.BASE_URL}assets/resume_lepg.pdf`}
                             download
                             className="download-btn btn-primary"
                         >
@@ -76,7 +76,7 @@ const Contact = () => {
                         </a>
 
                         <a
-                            href="/assets/id_rsa.pub"
+                            href={`${import.meta.env.BASE_URL}assets/llave_publica.pem`}
                             download
                             className="download-btn btn-secondary"
                         >
